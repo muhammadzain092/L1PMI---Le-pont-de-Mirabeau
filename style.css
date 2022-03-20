@@ -1,0 +1,66 @@
+body{
+    background-color:lightgray
+}
+h1{
+    color: grey;
+    border-bottom: 1px solid;
+    margin-bottom: 0;
+}
+main{
+
+    color: rgb(115, 118, 121);
+    margin-left: 7em;
+    padding: 1px 0 35px 5%;
+    border-left: 1px solid;
+    
+}
+nav {
+float: left;
+width: 7em;
+margin: 0;
+padding-top: 1em;
+
+
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    width: 7em;
+}
+nav li{
+    position: relative;
+    list-style: none;
+    margin: 0;
+
+}
+
+
+nav li:hover {
+
+    background: lightpink;
+}
+nav li.submenu:hover{
+    background: pink;
+
+}
+nav li a {
+    display: block;
+    padding: 0.25em 0 0.25em 0.5em;
+    text-decoration: none;
+    width: 6.5em;
+
+}
+nav ul ul {
+    position: absolute;
+    top: 0;
+    left: 7em;
+    display: none;
+}
+nav ul.level1 li.submenu:hover ul.level2 {
+    display: block;
+}
+p{
+    margin: 0px;
+    padding: 10px;
+}
